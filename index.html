@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="icon" href="logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><center><bold>Welcome to XYZ Classes</bold></center></h1>
+    <img style='height: 70px; width: 70px; position: absolute; top: 0px; right: 0px;' src="logo.jpg" width="100" 
+    height="100">
+    <div class="wrapper">
+        <img class="img" src="image.jpg" alt="Welcome to XYZ Classes">
+        <br><br>
+<div class="main">
+<div class="register">
+    <h2>STUDENT REGISTRATION</h2>
+    <form method="POST" action="record.php">
+    <label>Your Name* </label>
+    <br>
+    <input style="text-transform:uppercase" type="text" name="fname" id="name" placeholder="Enter your name" autocomplete="off" required>
+    <br><br>
+    <label>Your Mobile Number* </label>
+    <br>
+    <input type="text" pattern="[0-9]{10}" maxlength="10" name="number" id="name" placeholder="Enter your mobile no" autocomplete="off" required>
+    <br><br>
+    <label>Your Whatsapp Number* </label>
+    <br>
+    <input type="text" pattern="[0-9]{10}" maxlength="10" name="wp_number" id="name" placeholder="Enter your whatsapp no" autocomplete="off" required>
+    <br><br>
+    <label>Your Email id* </label>
+    <br>
+    <input type="email" name="email" id="name" placeholder="Enter your email id" autocomplete="off" required>
+    <br><br>
+    <label>Your Address* </label>
+    <br>
+    <input type="textarea" rows="5" cols="46" name="address" id="name" placeholder="Enter your address" autocomplete="off" required>
+    <br><br>
+    <label>Address PIN* </label>
+    <br>
+    <input type="text" pattern="[0-9]{06}" name="pin" id="name" maxlength="6" placeholder="Enter your address PIN" autocomplete="off" required>
+    <br><br>
+    <label>Subject(s) Name* </label>
+    <br>
+    <input type="text" name="sub" id="name" placeholder="Enter the subject name you want to study" autocomplete="off" required>
+    <br><br><br><br>
+    <center><input type="submit" id="submit" value="&#9989;Register" name="submit"></center>
+    <br>
+    <center><input type="reset" id="submit" value="&#10060;Reset" name="reset"></center>
+    </form>
+</div>
+</div>
+</body>
+</html>

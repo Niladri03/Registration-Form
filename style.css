@@ -1,0 +1,93 @@
+*{
+   margin: 50;
+   padding: 0;
+}
+ body{
+    background: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ div.main{
+    width: 600px;
+    margin: 50px auto 0px auto;
+ }
+ h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+ }
+ div.register{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 15px;
+    color: #fff;
+}
+form{
+    margin: 40px;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+input#name{
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px
+    rgba(0,0,0,0.3);
+}
+input#submit{
+   text-align: center;
+   margin: auto;
+    width: 300px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(8, 176, 222, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 4px solid rgba(0,0,0,0.3 )rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(215, 206, 206, 0.3);
+}
+
+ label,span,h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+ }
+ 
+.wrapper{
+   margin: 0 auto;
+   width: 1000px;
+}
+.img{
+   width: 200px;
+   border-radius: 50%;
+   align-self: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1{
+   color: rgb(32, 1, 144);
+   font-weight: bold;
+   padding: 15px;
+  margin-bottom: 5px;
+   font-size: 7ch;
+}
+h2{
+   color: rgb(32, 1, 144);
+      font-size: 4ch;
+      font-stretch: semi-expanded;
+      padding: 20px 0;
+}
